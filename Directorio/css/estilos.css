@@ -1,0 +1,119 @@
+body{
+	background: #FAF2F2;
+}
+.central {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+.contenedorgeneral{
+
+}
+  
+.titulo img {
+	/* float: left; */
+	margin-right: 10px; /* ajuste el margen según sus necesidades */
+	height: 25px;	
+  }
+
+  .titulo {
+	font-family: 'Arial'; /* Agregar la fuente Monserrat */
+	font-size: 10px;
+	text-align: center;
+	color: #FBFDFF;
+	display: flex;
+	/* justify-content: space-between; */
+   }
+
+.banner {
+	justify-content: inherit;
+	display: grid;
+	grid-template-columns: 1fr 60px;
+}
+  
+.wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	border-radius: 30px;
+	border: #F76511  2px solid;
+	padding: 20px 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 750px;
+}
+.contenedor {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: repeat(3,1fr);
+	gap: 25px;
+	margin-top: 20px;
+  }
+  
+.columna {
+flex-basis: 48%;
+margin-bottom: 20px;
+}
+  
+.rectangulo {
+font-family: 'Arial';
+color: #424648;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 10px;
+background-color: #F9F4F4;
+font-size: 12px;
+/* border-left: 3px solid #7B7471; */
+font-weight: bold;
+}
+
+.titulo-rectangulo {
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 14px;
+background-color: #1A7084;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+color: #FFFFFF;
+padding: 10px;
+}
+
+.titulo-rectangulo_impar {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #E74E0F;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #FFFFFF;
+	padding: 10px;
+	}
+  
+
+.linea {
+height: 2.5px;
+background-color: #FFFFFF;
+margin: 0 auto;
+
+}
+
+.isotipo{
+width: 60px;
+}
+
+.pbx{
+	display: flex;
+}
+
+h1 {
+	font-family: 'Arial';
+	margin-top: 0;
+	/* margin-bottom: 0.5rem; */
+	color: #424648;
+	font-size: 20px;
+}
