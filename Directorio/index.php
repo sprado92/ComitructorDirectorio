@@ -119,7 +119,7 @@ function obtenerDatosDepartamento($departamento, $consulta) {
 
       <div class="columna">
               <div class="rectangulo">
-                <div class="titulo-rectangulo">ASISTENTE DE GERENCIA</div>
+                <div class="titulo-rectangulo">LOGISTICA/AUDITORIA</div>
                 <div class="linea"></div>
 
                 <?php
@@ -173,7 +173,7 @@ function obtenerDatosDepartamento($departamento, $consulta) {
         <div class="columna">
 
                 <div class="rectangulo">
-                        <div class="titulo-rectangulo_impar">CORPORATIVO/CALL CENTER</div>
+                        <div class="titulo-rectangulo_impar">VENTAS</div>
                         <div class="linea"></div>
                       
                         <?php
